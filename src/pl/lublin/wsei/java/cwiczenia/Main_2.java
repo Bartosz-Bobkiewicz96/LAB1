@@ -2,7 +2,7 @@ package pl.lublin.wsei.java.cwiczenia;
 
 import java.util.Scanner;
 //Bartosz Bobkiewicz//
-public class Main {
+public class Main_2 {
     public static void main (String[] args){
         Scanner input = new Scanner(System.in);
         int num1, num2;
