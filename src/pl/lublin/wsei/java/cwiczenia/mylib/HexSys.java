@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class HexSys {
 
-    public static String leftPad(String aText, char aChar, int aWidth) {
+    private static String leftPad(String aText, char aChar, int aWidth) {
 
         String res = aText;
         for (int i = 0; i<aWidth-aText.length();i++)
