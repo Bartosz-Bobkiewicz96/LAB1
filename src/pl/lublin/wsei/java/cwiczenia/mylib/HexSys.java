@@ -2,9 +2,17 @@ package pl.lublin.wsei.java.cwiczenia.mylib;
 
 import java.util.Scanner;
 
+
 public class HexSys {
 
+    public static String leftPad(String aText, char aChar, int aWidth) {
 
+        String res = aText;
+        for (int i = 0; i<aWidth-aText.length();i++)
+            res = aChar + res;
+        return res;
+
+    }
     public static void main (String[]args){
         Scanner input = new Scanner(System.in);
 
